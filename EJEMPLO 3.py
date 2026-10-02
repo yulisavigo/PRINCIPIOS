@@ -7,3 +7,4 @@ class DescuentoVIP(Descuento):
 class DescuentoEstudiante(Descuento):
     def aplicar(self, precio):
         return precio * 0.9
+    #
